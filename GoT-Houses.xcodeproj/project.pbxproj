@@ -13,6 +13,10 @@
 		3E505A812434E5CC00245DBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E505A7F2434E5CC00245DBA /* Main.storyboard */; };
 		3E505A832434E5CD00245DBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E505A822434E5CD00245DBA /* Assets.xcassets */; };
 		3E505A862434E5CD00245DBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E505A842434E5CD00245DBA /* LaunchScreen.storyboard */; };
+		3E505A8E2434E7C500245DBA /* HouseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E505A8D2434E7C500245DBA /* HouseInfo.swift */; };
+		3E505A902434E7F600245DBA /* Houses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E505A8F2434E7F600245DBA /* Houses.swift */; };
+		3E505A922434F03D00245DBA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E505A912434F03D00245DBA /* DetailViewController.swift */; };
+		3E505A942434F8F000245DBA /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E505A932434F8F000245DBA /* SplashScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3E505A822434E5CD00245DBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E505A852434E5CD00245DBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E505A872434E5CD00245DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E505A8D2434E7C500245DBA /* HouseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseInfo.swift; sourceTree = "<group>"; };
+		3E505A8F2434E7F600245DBA /* Houses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Houses.swift; sourceTree = "<group>"; };
+		3E505A912434F03D00245DBA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3E505A932434F8F000245DBA /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			children = (
 				3E505A792434E5CC00245DBA /* AppDelegate.swift */,
 				3E505A7B2434E5CC00245DBA /* SceneDelegate.swift */,
+				3E505A8D2434E7C500245DBA /* HouseInfo.swift */,
+				3E505A8F2434E7F600245DBA /* Houses.swift */,
+				3E505A932434F8F000245DBA /* SplashScreenViewController.swift */,
 				3E505A7D2434E5CC00245DBA /* ViewController.swift */,
+				3E505A912434F03D00245DBA /* DetailViewController.swift */,
 				3E505A7F2434E5CC00245DBA /* Main.storyboard */,
 				3E505A822434E5CD00245DBA /* Assets.xcassets */,
 				3E505A842434E5CD00245DBA /* LaunchScreen.storyboard */,
@@ -140,6 +152,10 @@
 			files = (
 				3E505A7E2434E5CC00245DBA /* ViewController.swift in Sources */,
 				3E505A7A2434E5CC00245DBA /* AppDelegate.swift in Sources */,
+				3E505A942434F8F000245DBA /* SplashScreenViewController.swift in Sources */,
+				3E505A902434E7F600245DBA /* Houses.swift in Sources */,
+				3E505A922434F03D00245DBA /* DetailViewController.swift in Sources */,
+				3E505A8E2434E7C500245DBA /* HouseInfo.swift in Sources */,
 				3E505A7C2434E5CC00245DBA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
